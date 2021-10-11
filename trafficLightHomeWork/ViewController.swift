@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     private var admisibleLight = AdmissibleLight.red
     
     private let lightOn: CGFloat = 1
-    private let lightOff: CGFloat = 0.3
+    private let lightOff: CGFloat = 0.4
     
     
     
