@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     private var admisibleLight = AdmissibleLight.red
     
     private let lightOn: CGFloat = 1
-    private let lightOff: CGFloat = 0.4
+    private let lightOff: CGFloat = 0.3
     
     
     
@@ -31,9 +31,9 @@ class ViewController: UIViewController {
         
         startButton.layer.cornerRadius = 10
         
-        redView.layer.cornerRadius = 65
-        yellowView.layer.cornerRadius = 65
-        greenView.layer.cornerRadius = 65
+        redView.layer.cornerRadius = 55
+        yellowView.layer.cornerRadius = 55
+        greenView.layer.cornerRadius = 55
         
         redView.alpha = lightOff
         yellowView.alpha = lightOff
